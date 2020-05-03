@@ -6,7 +6,7 @@ client = Client(account_sid, auth_token)
 
 message = client.messages \
     .create(
-    body="HELLO. YOU SEND SOMEONE DOWN TO GET FRUITS OR MEDICINES AGAIN . IT WILL BOT BE GOOD",
+    body="*enters gibberish*",
     from_='************', #enter twilio number here
     to="***********" # enter number where you want to send text
 )
